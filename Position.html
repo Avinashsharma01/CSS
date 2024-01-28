@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #dada{
+            width: 100%;
+            height: 100%;
+        }
+        #main{
+            width: 100vw;
+            height: 100vh;
+            background-color: gray;
+        }
+        #main1{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(73, 57, 57);
+        }
+        .box{
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(184, 31, 136);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #child1{
+            position: static;
+        }
+        #child2{
+            position: relative;
+            left: 125px;
+        }
+        #child3{
+            position: absolute;
+            left: 225px;
+        }
+        #child4{
+            position:fixed;
+            left: 90vw;
+            bottom:5vh;
+        }
+        nav{
+            padding: 20px;
+            background-color: rgb(184, 31, 136);
+            position:sticky;
+            z-index: 10;
+            top: 0px;
+        }
+        a{
+            padding: 20px;
+            text-decoration: none;
+            color: white;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <!-- There are four position property
+    1. position Static
+    2. position Relative
+    3. position absolute
+    4. position fixed -->
+    <div id="dada">
+
+        <div id="main">
+            <nav>
+                <a href="">Home</a>
+                <a href="">Video</a>
+                <a href="">Audio</a>
+                <a href="">Avinash</a>
+                <a href="">Sharma</a>
+            </nav>
+            <div id="child2" class="box">Relative</div>
+            <div id="child3" class="box">Absolute</div>
+            <div id="child4" class="box">fixed</div>
+            <div id="child5" class="box">Sticky</div>
+        </div>
+        <div id="main1"></div>
+    </div>
+</body>
+</html>
