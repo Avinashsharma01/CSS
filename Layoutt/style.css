@@ -26,6 +26,8 @@ a{
     text-decoration: none;
     color: white;
 }
+
+
 .hh{
     text-align: center;
     font-size: 1em;
@@ -36,16 +38,40 @@ a{
 }
 #left_page{
     width: 17.5vw;
-    height: 100vh;
+    height: 200vh;
     background-color: #d27575;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
 }
 #right_page{
     width: 17.5vw;
-    height: 100vh;
+    height: 200vh;
     background-color: #61b042;
 }
 #main_page{
     width: 70vw;
-    height: 100vh;
+    height: 200vh;
     background-color: #dbd6cf;
 }
+
+p,h3{
+    padding: 0px 10px;
+}
+
+
+
+footer{
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+    position: relative;
+}
+body {
+    overflow-x: hidden; /* Hide scrollbars */
+  }

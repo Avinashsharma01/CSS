@@ -5,6 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="\Layoutt\style.css" />
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+    }
+    #header{
+        background-color: rgb(0, 212, 254);
+        width:100vw;
+        height:200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #head{
+        font-size: 5em;
+    }
+    nav{
+        width: 100vw;
+        height: 5vh;
+        background-color: #09a4af;
+        display: flex;
+        align-items: center;
+    }
+    a{  
+        padding: 0px 10px 0px 10px ;
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+    .hh{
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    #all{
+        display: flex;
+    }
+    #left_page{
+        width: 17.5vw;
+        height: 200vh;
+        background-color: #d27575;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        justify-content: space-around;
+    }
+    #right_page{
+        width: 17.5vw;
+        height: 200vh;
+        background-color: #61b042;
+    }
+    #main_page{
+        width: 70vw;
+        height: 200vh;
+        background-color: #dbd6cf;
+    }
+    
+    p,h3{
+        padding: 0px 10px;
+    }
+    
+    
+    
+    footer{
+        background-color: greenyellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 10vh;
+        position: relative;
+    }
+    body {
+        overflow-x: hidden; /* Hide scrollbars */
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -12,27 +91,75 @@
         <h1 id="head">Avinash Sharma</h1>
       </div>
       <nav id="navbar">
-        <a href="">Home</a>
-        <a href="">Anup</a>
-        <a href="">Avinash</a>
-        <a href="">Brijesh</a>
-        <a href="">Ankrita</a>
-        <a href="">Amresh</a>
+        <a href="index.html" class="anchor">Home</a>
+        <a href="page\Anup.html" class="anchor">Anup</a>
+        <a href="page\Avinash.html" class="anchor">Avinash</a>
+        <a href="page\Brijesh.html" class="anchor">Brijesh</a>
+        <a href="page\Ankrita.html" class="anchor">Ankrita</a>
+        <a href="page\Amresh.html" class="anchor">Amresh</a>
       </nav>
     </header>
     <main>
       <div id="all">
-        <div id="left_page"></div>
+        <div id="left_page">
+          <a href="index.html">Home</a>
+          <a href="page\Anup.html">Anup</a>
+          <a href="page\Avinash.html">Avinash</a>
+          <a href="page\Brijesh.html">Brijesh</a>
+          <a href="page\Ankrita.html">Ankrita</a>
+          <a href="page\Amresh.html">Amresh</a>
+        </div>
         <div id="main_page">
           <h2 class="hh">
             THIS PAGE WILL DESCRIBE ALL DETAILS ABOUT MY FAMILY
-        </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum quasi ea aspernatur perferendis reprehenderit dicta mollitia vero dolores excepturi non, beatae omnis sed, quidem perspiciatis ipsum iusto error velit ducimus sequi voluptas id doloremque. Aliquid cum eos dolores qui adipisci. Quas expedita, facilis tempore ipsa natus, fugiat distinctio et culpa, aliquid dignissimos quae nihil! Voluptas sed beatae laborum cumque aperiam a alias? Eum dolores, velit officia corrupti aperiam, magni numquam inventore ipsam quo molestias laborum sequi iusto dolore mollitia repudiandae hic earum, odio vel! Dignissimos, delectus adipisci eligendi aspernatur atque deserunt pariatur dolorum eveniet ea? Reprehenderit provident repellat praesentium.</p>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            dolorum quasi ea aspernatur perferendis reprehenderit dicta mollitia
+            vero dolores excepturi non, beatae omnis sed, quidem perspiciatis
+            ipsum iusto error velit ducimus sequi voluptas id doloremque.
+            Aliquid cum eos dolores qui adipisci. Quas expedita, facilis tempore
+            ipsa natus, fugiat distinctio et culpa, aliquid dignissimos quae
+            nihil! Voluptas sed beatae laborum cumque aperiam a alias? Eum
+            dolores, velit officia corrupti aperiam, magni numquam inventore
+            ipsam quo molestias laborum sequi iusto dolore mollitia repudiandae
+            hic earum, odio vel! Dignissimos, delectus adipisci eligendi
+            aspernatur atque deserunt pariatur dolorum eveniet ea? Reprehenderit
+            provident repellat praesentium.
+            <br><br>
+          </p>
+          <h3>About Anup Sharma</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos vitae ex exercitationem, ullam ipsa iste voluptatum in recusandae magni possimus ducimus porro veniam enim aliquam qui accusantium. Laboriosam, voluptate aliquam repellat nesciunt ad facere quisquam quidem asperiores repudiandae nisi, unde at ullam sit dolor? Consectetur esse nobis fuga eligendi assumenda! 
+            <b>for more detail. </b> <a href="page\Anup.html" style="color: red;">click here</a>
+          </p>
+          <br><br>
+          <h3>About Avinash Sharma</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos vitae ex exercitationem, ullam ipsa iste voluptatum in recusandae magni possimus ducimus porro veniam enim aliquam qui accusantium. Laboriosam, voluptate aliquam repellat nesciunt ad facere quisquam quidem asperiores repudiandae nisi, unde at ullam sit dolor? Consectetur esse nobis fuga eligendi assumenda! 
+            <b>for more detail. </b> <a href="page\Avinash.html" style="color: red;">click here</a>
+          </p>
+          <br><br>
+          <h3>About Brijesh Sharma</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos vitae ex exercitationem, ullam ipsa iste voluptatum in recusandae magni possimus ducimus porro veniam enim aliquam qui accusantium. Laboriosam, voluptate aliquam repellat nesciunt ad facere quisquam quidem asperiores repudiandae nisi, unde at ullam sit dolor? Consectetur esse nobis fuga eligendi assumenda! 
+            <b>for more detail. </b> <a href="page\Brijesh.html" style="color: red;">click here</a>
+          </p>
+          <br><br>
+          <h3>About Ankrita Sharma</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos vitae ex exercitationem, ullam ipsa iste voluptatum in recusandae magni possimus ducimus porro veniam enim aliquam qui accusantium. Laboriosam, voluptate aliquam repellat nesciunt ad facere quisquam quidem asperiores repudiandae nisi, unde at ullam sit dolor? Consectetur esse nobis fuga eligendi assumenda! 
+            <b>for more detail. </b> <a href="page\Ankrita.html" style="color: red;">click here</a>
+          </p>
+          <br><br>
+          <h3>About Amresh Sharma</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos vitae ex exercitationem, ullam ipsa iste voluptatum in recusandae magni possimus ducimus porro veniam enim aliquam qui accusantium. Laboriosam, voluptate aliquam repellat nesciunt ad facere quisquam quidem asperiores repudiandae nisi, unde at ullam sit dolor? Consectetur esse nobis fuga eligendi assumenda! 
+            <b>for more detail. </b> <a href="page\Amresh.html" style="color: red;">click here</a>
+          </p>
+          
         </div>
         <div id="right_page"></div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <h1>Here is the end of foot</h1>
+    </footer>
     <script src="\Layoutt\script.js"></script>
   </body>
 </html>
