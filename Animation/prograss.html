@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progress-Bar</title>
+    <style>
+        body{
+            background-color: #195f4c;
+            padding: 0;margin: 0;
+        }
+      .main {
+        width: 90%;
+        height: 25px;
+        background-color: gray;
+        border: 3px solid rgb(0, 0, 0);
+        position: relative;
+        top: 20vw;
+        left: 4.5vw;
+        border-radius: 20px;
+        
+      }
+
+      .child {
+        background-color: rgb(26, 166, 179);
+        height: 100%;
+        border-radius: 20px;
+        animation: Bar 3s ease-in-out 0s infinite alternate ;
+      }
+      .child1:hover{
+        background-color: rgb(172, 34, 34);
+      }
+      .child2:hover{
+        background-color: rgb(255, 255, 255);
+      }
+      .child3:hover{
+        background-color: rgb(5, 110, 12);
+      }
+
+      @keyframes Bar {
+            0%{
+                width: 2%;
+            }
+            90%{
+                width: 100%;
+            }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="child child1 ">Avinash </div>
+    </div>
+    <div class="main">
+      <div class="child child2">Kumar </div>
+    </div>
+    <div class="main">
+      <div class="child child3">Sharma</div>
+    </div>
+  </body>
+</html>

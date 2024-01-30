@@ -70,3 +70,48 @@
 }
 
 
+#Here is the details about Grid template 
+Properties
+display
+grid-template-columns
+grid-template-rows
+grid-template-areas
+grid-template
+grid-auto-columns
+grid-auto-rows
+grid-auto-flow
+grid
+grid-row-start
+grid-column-start
+grid-row-end
+grid-column-end
+grid-row
+grid-column
+grid-area
+row-gap
+column-gap
+gap
+masonry-auto-flow Experimental
+align-tracks Experimental
+justify-tracks Experimental
+Functions
+repeat()
+minmax()
+fit-content()
+Data types
+<flex>
+
+
+
+#Transform propertiy
+Transition- properties
+1.
+
+
+
+
+#Transform-properties
+1.rotate
+2.scale()
+3.Translate
+4.skew

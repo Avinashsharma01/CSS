@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid_3 </title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            width: 100vw;
+            height: 100vh;
+            background-color: #3a6e7a;
+            display: grid;
+            grid-template-columns:250px 250px 250px ;
+            grid-template-rows:250px 250px 250px ;
+            grid-auto-rows: 250px;
+            
+        }
+        .child{
+            border: 1px solid red;
+
+        }
+        .child1{
+            grid-column: 2/3;
+        }
+        .child6{
+            grid-row:1/2;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="child child1">1</div>
+        <div class="child child2">2</div>
+        <div class="child child3">3</div>
+        <div class="child child4">4</div>
+        <div class="child child5">5</div>
+        <div class="child child6">6</div>
+       
+    </div>
+</body>
+</html>

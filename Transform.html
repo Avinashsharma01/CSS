@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform in CSS</title>
+    <style>
+        .dada{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            border: 2px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.5s ease-in-out ;
+           
+        }
+        .child{
+            font-size: large;
+        }
+
+        .main:hover{
+            transform: skew(45deg);
+            transform: skew(90deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>Transition And Transform </h1>
+    <div class="dada">
+        <div class="main">
+            <div class="child"><u>AVINASH</u></div>
+        </div>
+    </div>
+    
+</body>
+</html>

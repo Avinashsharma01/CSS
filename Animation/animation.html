@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .main{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center ;
+            background-color: gray;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 150px;
+            border: 5px solid red;
+            background-color: #d1cbcb;
+            position: relative;
+            left: 10px;
+            top: 10px;
+            border-radius: 50%;
+            /*
+            animation-name: hello;
+            animation-duration: 2s;
+            animation-iteration-count:infinite ;
+            animation-direction: alternate;
+            */
+            animation: hello 2s ease-in-out 0s infinite alternate;
+        }
+
+        @keyframes hello {
+            from{
+                left: 0vw;
+            }
+            to{
+                left: 100vw;
+            }
+        }
+        .box1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 150px;
+            border: 5px solid red;
+            background-color: #d1cbcb;
+            position: relative;
+            left: 10px;
+            top: 10px;
+            border-radius: 50%;
+            /*
+            animation-name: hello;
+            animation-duration: 2s;
+            animation-iteration-count:infinite ;
+            animation-direction: alternate;
+            */
+            animation: hello 2s ease-in-out 0s infinite alternate-reverse;
+        }
+
+        @keyframes hello {
+            from{
+                left:0vw;
+            }
+            to{
+                left: 100vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box"><p>Animation</p></div>
+        <div class="box1"><p>Animation</p></div>
+    </div>
+    
+</body>
+</html>
