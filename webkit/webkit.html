@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WebKit Properties Example</title>
+<style>
+    /* CSS for WebKit properties */
+    .element {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #ccc;
+    }
+
+    /* WebKit properties */
+    .element {
+        -webkit-animation: spin 2s linear infinite;
+        -webkit-appearance: none;
+        -webkit-backface-visibility: hidden;
+        -webkit-background-clip: padding-box;
+        -webkit-background-origin: content-box;
+        -webkit-background-size: cover;
+        -webkit-border-image: url(border.png) 30 stretch;
+        -webkit-box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.5);
+        -webkit-box-sizing: border-box;
+        -webkit-filter: blur(2px) grayscale(50%);
+        -webkit-flex: 1;
+        -webkit-justify-content: space-around;
+        -webkit-mask: linear-gradient(to bottom, black 50%, transparent 50%);
+        -webkit-text-fill-color: blue;
+        -webkit-text-stroke: 1px black;
+        -webkit-transform: rotate(45deg) scale(1.5);
+        -webkit-transition: all 0.5s ease;
+    }
+
+    /* Keyframes for animation */
+    @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+    }
+</style>
+</head>
+<body>
+<div class="element">Webkit Properties</div>
+</body>
+</html>
