@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+h1 {
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+/* grid css start from here  */

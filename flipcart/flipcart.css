@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* background-color: #dfdbdb; */
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  /* background-color: gray; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 35px 40px 35px 0px;
+  color: rgb(45, 42, 42);
+  font-size: 18px;
+}
+#logo {
+  width: 100%;
+  height: 100%;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flipsearch {
+  min-width: 300px;
+  width: 650px;
+  height: 40px;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  background-color: #f0f5ff;
+}
+.searchicon {
+  color: gray;
+  font-size: 18px;
+  background-color: #f0f5ff;
+}
+.searchicon {
+  /* background-color: #F0F5FF; */
+  padding: 12px 8px;
+  border-radius: 10px 0px 0px 10px;
+}
+.flipsearch::placeholder {
+  font-size: 18px;
+}
+.profile {
+  width: 140px;
+  background-color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+#profileiconid {
+  width: 25px;
+  margin-top: 3.1px;
+}
+.profile:hover {
+  background-color: #fafafa;
+}
+
+.cart {
+  display: flex;
+  width: 90px;
+  padding: 8px 12px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.seller {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: none;
+  width: 160px;
+}
+.profileUL {
+  position: absolute;
+  list-style: none;
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid red;
+  margin-left: -36px;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  display: none;
+  
+}
+
+.profilename ul:hover {
+  display: block;
+}
+
+
+li {
+  padding: 5px;
+}
+
+/* second component start from here  */
+/* second component start from here  */
+/* second component start from here  */
+/* second component start from here  */
+
+.shopbanner {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 50px; */
+  background-color: #f8f7f7;
+}
+.allimg {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 550;
+}
+img {
+  width: 60px;
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* slide componenta start from here */
+/* slide componenta start from here */
+/* slide componenta start from here */
+/* slide componenta start from here */
+
+.slideimg {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+#childslide {
+  margin-top: 50px;
+  width: 98%;
+  height: auto;
+}
+.imageslide {
+  width: 100%;
+  height: 100%;
+}
+
+/* <!-- third component start frome here  -->
+<!-- third component start frome here  -->
+<!-- third component start frome here  -->
+<!-- third component start frome here  --> */
+
+#mainitem {
+  width: 100%;
+  height: auto;
+  background-color: gray;
+}

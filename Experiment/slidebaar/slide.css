@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-container{
+    width: 750px;
+    height: 400px;
+    background-color: gray;
+    display: flex;
+    overflow: hidden;
+}
+
+img{
+    width: 750px;
+    height: 400px;
+}
+
+.icon{
+    position: absolute;
+}
+
+.icon1{
+    color: white;
+    font-size: 40px;
+}
+
+.icon-right{
+    transform: translate(710px, 140px);
+    
+}
+
+.icon-left{
+    transform: translate(10px,180px);
+}
+
+/* img{
+    transform: translateX(-750px);
+} */

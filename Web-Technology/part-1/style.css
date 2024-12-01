@@ -1,0 +1,53 @@
+/* <li class="em">em</li>
+<li class="ex">ex</li>
+<li class="px">px</li>
+<li class="cm">cm</li>
+<li class="mm">mm</li>
+<li class="in">in</li>
+<li class="pt">pt</li>
+<li class="pc">pc</li> */
+
+/* write down classes with font size of all which is mentioned above  */
+.con{
+    width: 100%;
+    border: 2px solid black;
+}
+
+.mainul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.em {
+    font-size: 1em;
+}
+
+.ex {
+    font-size: 1ex;
+}
+
+.px {
+    font-size: 16px;
+}
+
+.cm {
+    font-size: 1cm;
+}
+
+.mm {
+    font-size: 1mm;
+}
+
+.in {
+    font-size: 1in;
+}
+
+.pt {
+    font-size: 1pt;
+}
+
+.pc {
+    font-size: 1pc;
+}
